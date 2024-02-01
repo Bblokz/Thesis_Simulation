@@ -25,18 +25,4 @@ void ARLAgentController::StartMovement()
 
 void ARLAgentController::UpdateMovement()
 {
-	if (m_ControlledVehicle)
-	{
-		URlAgentChaosMovementComponent* MovementComponent = m_ControlledVehicle->GetVehicleMovementComponent();
-
-		if (MovementComponent)
-		{
-			//float RandomThrottle = FMath::RandRange(0.0f, 1.0f);
-			// float RandomThrottle = 1.0f;
-			// float RandomSteering  = 0.f; // FMath::RandRange(0.0f, 1.0f); 
-			// MovementComponent->SetThrottleInput(RandomThrottle);
-			// MovementComponent->SetSteeringInput(RandomSteering);
-			// MovementComponent->SetTargetGear(1, true);
-		}
-	} 
 }

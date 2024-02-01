@@ -12,7 +12,7 @@ class ENGINE_API USpringArmComponent;
 class ENGINE_API UCameraComponent;
 
 /**
- * 
+ * Player controller for the RLAgentVehicle. Propages input to the vehicle with EnhancedInputSystem in blueprintss.
  */
 UCLASS()
 class THESISSIMULATION_API ARLPlayerController : public APlayerController

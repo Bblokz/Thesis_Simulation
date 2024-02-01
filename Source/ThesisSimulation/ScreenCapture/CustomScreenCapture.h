@@ -42,6 +42,10 @@ struct FVehicleData
 	
 };
 
+/**
+ * Custom screen capture class that captures images from the scene and saves them to disk using OpenCV.
+ * Uses Custom Render settings found @ref BeginPlay.
+ */
 UCLASS()
 class THESISSIMULATION_API ACustomScreenCapture : public AActor
 {

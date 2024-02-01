@@ -2,7 +2,7 @@
 
 
 #include "CustomScreenCapture.h"
-#include <algorithm>    // max()
+#include <algorithm>   
 #include <fstream>
 // To save images with openCV.
 #include <opencv2/imgcodecs.hpp>
@@ -61,7 +61,7 @@ ACustomScreenCapture::ACustomScreenCapture()
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 	m_Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("ViewportCamera"));
 	m_Camera->SetupAttachment(RootComponent);
-	m_SceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("SceneCapture")); // *****
+	m_SceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("SceneCapture")); 
 	m_SceneCapture->SetupAttachment(m_Camera);
 
 	m_BaseFilename = "ScreenTest";
