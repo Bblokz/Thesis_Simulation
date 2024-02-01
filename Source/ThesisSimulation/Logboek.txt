@@ -1,0 +1,13 @@
+﻿sep1 - sep 4 :  Setup first version of UE5 simulation project. Added time dilation to world settings. Added camera to scene capture component.
+sep 4 - sep 6: Worked on implementation scene capture component.
+sep 6 - sep 11: Moved screen capture to AActor base class and implemented python script with openCV to analyse the images. 
+sep 11 - sep 13: Added openCV to UE5 project and added dependencies to load dl models with ONNX.
+sep 13 - sep 18: Fixed gamma issue with screen capture. Fixed screen capture texture render.
+Added python implementation for depth analysis on screen captures.
+sep 18 - sep 20: Fixed issue with rendering landscape on screen capture. Rebuild scene with different landscape and outer walls.
+sep 21: No longer needed to run seperate python script to save images, now images are saved correctly using OpenCV in cpp
+directly. Worked on implementing depth analysis.
+sep23: Research on what type of RL agent to use. Read paper on Deterministic Policy Gradient Algorithm for continuous action spaces.
+sep 24-25: Implemented vehicle control and created map. Hidden vehicle for rendering and added camera to vehicle.
+and worked on implementing depth analysis.
+sep 27-28: Implemented obtaining vehicle input control and writing data to csv file.
